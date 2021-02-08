@@ -1,0 +1,20 @@
+com/adventural/aboutme/databinding/ActivityMainBinding.java
+ com.adventural.aboutme.databinding.ActivityMainBinding
+com/adventural/aboutme/DataBinderMapperImpl.java
+ com.adventural.aboutme.DataBinderMapperImpl
+ com.adventural.aboutme.DataBinderMapperImpl$InnerBrLookup
+ com.adventural.aboutme.DataBinderMapperImpl$InnerLayoutIdLookup
+com/adventural/aboutme/databinding/ActivityMainBindingImpl.java
+ com.adventural.aboutme.databinding.ActivityMainBindingImpl
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/adventural/aboutme/BuildConfig.java
+ com.adventural.aboutme.BuildConfig
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/adventural/aboutme/DataBindingTriggerClass.java
+ com.adventural.aboutme.DataBindingTriggerClass
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/adventural/aboutme/BR.java
+ com.adventural.aboutme.BR
