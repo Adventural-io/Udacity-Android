@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">About me</string>
+    <string name="name_string">Quan NGUYEN</string>
+    <string name="star_description">This is a star</string>
+    <string name="bio_text">Hi, My name is Z, I am a student - software developer lived in Lille, France.\n\nI love to reading books and listening to technology podcast in freetime.\n\nIf you want to collaborate with me. Please send me an email to: minhquan.nguyen.vi@gmail.com.\n\n</string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
+</resources>
