@@ -3,4 +3,5 @@
     <string name="buttonRollText">Roll</string>
     <string name="hello_android">Hello Android!</string>
     <string name="dice_content_description">Dice</string>
+    <string name="left_dice_description">Left Dice</string>
 </resources>
