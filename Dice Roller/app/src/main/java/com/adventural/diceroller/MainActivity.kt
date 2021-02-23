@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.adventural.diceroller.databinding.ActivityMainBinding
-import com.adventural.diceroller.utils.rollDice
+import com.adventural.diceroller.entity.Dice
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,12 +16,20 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        binding.rollButton.setOnClickListener { setDicesImage() }
+        binding.rollButton.setOnClickListener { rollDice() }
+
+        rollDice()
 
     }
 
-    private fun setDicesImage() {
-        val leftDiceChose = when (rollDice()) {
+    /**
+     * Roll the dice
+     */
+    private fun rollDice() {
+        // Create new Dice object with 6 sides and roll the dice
+        val dice = Dice(6)
+        val leftDiceRoll = dice.roll()
+        val leftDiceNumber = when (leftDiceRoll) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3
@@ -30,7 +38,11 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.dice_6
         }
 
-        val rightDiceChose = when (rollDice()) {
+        binding.leftDiceImage.contentDescription = leftDiceNumber.toString()
+
+        val rightDiceRoll = dice.roll()
+
+        val rightDiceNumber = when (rightDiceRoll) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3
@@ -38,11 +50,15 @@ class MainActivity : AppCompatActivity() {
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
         }
+
+        binding.rightDiceImage.contentDescription = leftDiceNumber.toString()
 
         binding.apply {
-            diceLeftImageView.setImageResource(leftDiceChose)
-            diceRightImageView.setImageResource(rightDiceChose)
+            leftDiceImage.setImageResource(leftDiceNumber)
+            rightDiceImage.setImageResource(rightDiceNumber)
+            resultText.text = "The result is " + (leftDiceRoll + rightDiceRoll)
         }
+
     }
 
 
