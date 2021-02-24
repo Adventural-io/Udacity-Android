@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="edit_text">
+        <item name="android:layout_marginLeft">@dimen/layout_margin</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:ems">10</item>
+        <item name="android:paddingLeft">@dimen/padding_small</item>
+        <item name="android:paddingRight">@dimen/padding_small</item>
+    </style>
+</resources>
