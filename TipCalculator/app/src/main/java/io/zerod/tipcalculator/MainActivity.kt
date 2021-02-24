@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         displayTip("")
 
-        binding.calculateButton.setOnClickListener { calculateTip() }
+        binding.calculateButton.setOnClickListener { calculateTip(it) }
 
         binding.costOfServiceEditText.setOnKeyListener { view, keyCode, _ ->
             handleKeyEvent(
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun calculateTip() {
+    private fun calculateTip(view: View) {
         val costAmount = binding.costOfServiceEditText.text.toString().toDoubleOrNull()
 
         if (costAmount == null) {
@@ -60,6 +60,8 @@ class MainActivity : AppCompatActivity() {
 
         val formattedTip = NumberFormat.getCurrencyInstance().format(tip)
 
+        closeKeyboard(view)
+
         displayTip(formattedTip)
     }
 
@@ -72,11 +74,15 @@ class MainActivity : AppCompatActivity() {
     private fun handleKeyEvent(view: View, keyCode: Int): Boolean {
         if (keyCode == KeyEvent.KEYCODE_ENTER) {
             // Hide the keyboard
-            val inputMethodManager =
-                getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-            inputMethodManager.hideSoftInputFromWindow(view.windowToken, 0)
+            closeKeyboard(view)
             return true
         }
         return false
+    }
+
+    private fun closeKeyboard(view: View) {
+        val inputMethodManager =
+            getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
+        inputMethodManager.hideSoftInputFromWindow(view.windowToken, 0)
     }
 }
