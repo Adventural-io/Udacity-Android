@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FranceV</string>
+    <string name="title_home">Explore</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="nearest_towns">Nearest towns</string>
+    <string name="lille_name">Lille</string>
+    <string name="lille_description">This is a city</string>
+    <string name="toulouse_name">Toulouse</string>
+    <string name="toulouse_description">This is another city</string>
+</resources>
