@@ -1,0 +1,6 @@
+io/zerod/francev/databinding/FragmentHomeBinding.java
+ io.zerod.francev.databinding.FragmentHomeBinding
+io/zerod/francev/BuildConfig.java
+ io.zerod.francev.BuildConfig
+io/zerod/francev/DataBindingTriggerClass.java
+ io.zerod.francev.DataBindingTriggerClass
