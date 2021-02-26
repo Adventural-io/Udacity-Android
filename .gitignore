@@ -13,9 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
-<<<<<<< HEAD
 .idea/
-=======
 # Built application files
 *.apk
 *.aar
@@ -104,4 +102,4 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
->>>>>>> 9f8e074... Update gitignore
+
