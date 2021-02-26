@@ -1,0 +1,6 @@
+io/zerod/tipcalculator/databinding/ActivityMainBinding.java
+ io.zerod.tipcalculator.databinding.ActivityMainBinding
+io/zerod/tipcalculator/BuildConfig.java
+ io.zerod.tipcalculator.BuildConfig
+io/zerod/tipcalculator/DataBindingTriggerClass.java
+ io.zerod.tipcalculator.DataBindingTriggerClass

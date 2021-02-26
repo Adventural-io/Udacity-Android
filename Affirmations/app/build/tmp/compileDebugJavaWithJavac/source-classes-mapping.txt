@@ -1,0 +1,6 @@
+io/zerod/affirmations/databinding/ActivityMainBinding.java
+ io.zerod.affirmations.databinding.ActivityMainBinding
+io/zerod/affirmations/DataBindingTriggerClass.java
+ io.zerod.affirmations.DataBindingTriggerClass
+io/zerod/affirmations/BuildConfig.java
+ io.zerod.affirmations.BuildConfig

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\minhq\\AndroidStudioProjects\\Udacity-Android\\Words\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detail.xml",
+        "source": "C:\\Users\\minhq\\AndroidStudioProjects\\Udacity-Android\\Words\\app\\src\\main\\res\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\minhq\\AndroidStudioProjects\\Udacity-Android\\Words\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\minhq\\AndroidStudioProjects\\Udacity-Android\\Words\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\minhq\\AndroidStudioProjects\\Udacity-Android\\Words\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_view.xml",
+        "source": "C:\\Users\\minhq\\AndroidStudioProjects\\Udacity-Android\\Words\\app\\src\\main\\res\\layout\\item_view.xml"
+    }
+]
